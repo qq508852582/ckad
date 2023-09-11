@@ -16,7 +16,7 @@
     - 保留 4 个失败的 Job
     - 永不重启 Pod
     - 在 8 秒后终止 Pod
-- 为测试目的，从 CronJob ppi 中手动创建并执行一个名为 ppi-test 的 Job. (Job的完成或是爱并不不重要)
+- 为测试目的，从 CronJob ppi 中手动创建并执行一个名为 ppi-test 的 Job. (Job的完成或失败并不重要)
 
 ### Q2
 - kubectl config use-context k8s
